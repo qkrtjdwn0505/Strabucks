@@ -330,7 +330,7 @@ a{text-decoration: none;}
 
 /* BANNER */
 #body_layout .banner{
-    background-image: url(../../Starbucks/images/25th_top_bg.png);
+    background-image: url(../images/25th_top_bg.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center top;
@@ -841,7 +841,7 @@ a{text-decoration: none;}
 
 #body_layout .find-store .inner .texture1{
    position: absolute;
-   height: ;
+   /* height: ; */
    top: 0;
    left: 400px;
 }
