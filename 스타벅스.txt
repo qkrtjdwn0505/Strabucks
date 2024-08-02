@@ -1,0 +1,275 @@
+<!-- index.html -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 오픈그래프 웹페이지가 SNS로 공유될 때 활용되는 정보 -->
+    <meta property = "og:type" content="website">
+    <meta property = "og:site_name" content="Starbucks">
+    <meta property = "og:title" content="Starbucks Coffee Korea">
+    <meta property = "og:description" content="Starbucks Coffee">
+    <meta property = "og:image" content="../Starbucks\images\starbucks_seo.jpg">
+    <meta property = "og:url" content="http://127.0.0.1:5500">
+    
+    <title>Starbucks Coffee Korea</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />    <!-- favicon -->
+    <linkrel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="icon" href="../Starbucks/images/favicon.ico">
+    <link rel="stylesheet" href="../Starbucks/css/main.css">
+    <script defer src="../Starbucks/js/main.js"></script>
+    
+ </head>
+ <body>
+
+    <!-- HEAD -->
+    <div id="head_layout">
+        <div class="inner">
+            <h1>
+                <a href="/Starbucks/" class="logo">
+                    <img src="../Starbucks/images/starbucks_logo.png" alt="starbucks logo">
+                </a>
+            </h1>
+
+            <div class="util_menu">
+                <ul class="menu">
+                    <li><a href="">Sign in</a></li>
+                    <li><a href="">My Starbucks</a></li>
+                    <li><a href="">C/S</a></li>
+                    <li><a href="">Find</a></li>
+                </ul>
+
+                <div class="search">
+                    <input type="text" name="" id="">
+                    <span class="material-symbols-outlined">
+                    search
+                    </span>
+                </div>
+
+            </div>
+<!-- ------------------------------------ -->
+            <ul class="main-menu">
+
+                <li class="item">
+                    <div class="item_name">COFFEE</div>
+                    <div class="item_contents">
+                        <div class="content_menu">
+                            <ul class="inner">
+
+                                <li>
+                                    <p>커피</p>
+                                    <ul>
+                                        <li>스타벅스 원두</li>
+                                        <li>스타벅스 비아</li>
+                                        <li>스타벅스앳홈 by 캡슐</li>
+                                        <li>나와 어울리는 커피</li>
+                                    </ul>
+                                </li>
+
+                                <li>
+                                    <p>커피 이야기</p>
+                                    <ul>
+                                        <li>농장에서 우리의 손으로</li>
+                                        <li>최상의 아라비카 원두</li>
+                                        <li>스타벅스 로스트 스펙트럼</li>
+                                        <li>스타벅스 디카페인</li>
+                                    </ul>
+                                </li>
+
+                                <li>
+                                    <p>스타벅스 리저브</p>
+                                    <ul>
+                                        <li>RESERVE MAGAZINE</li>
+                                    </ul>
+                                </li>
+
+                                <li>
+                                    <p>에스프레소 음료</p>
+                                    <ul>
+                                        <li>도피오</li>
+                                        <li>에스프레소 마키아또</li>
+                                        <li>아메리카노</li>
+                                        <li>마키아또</li>
+                                        <li>카푸치노</li>
+                                    </ul>
+                                </li>
+
+                                <li>
+                                    <p>최상의 커피를 즐기는 법</p>
+                                    <ul>
+                                        <li>커피 프레스</li>
+                                        <li>푸어 오버</li>
+                                        <li>아이스 푸어 오버</li>
+                                        <li>커피 메이커</li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </li>
+
+                <li class="item">
+                    <div class="item_name">MENU</div>
+                    <div class="item_contents">
+                        
+                    </div>
+                </li>
+
+                <li class="item">
+                    <div class="item_name">STORE</div>
+                    <div class="item_contents">
+                        
+                    </div>
+                </li>
+
+                <li class="item">
+                    <div class="item_name">RESPONSIBILITY</div>
+                    <div class="item_contents">
+                        
+                    </div>
+                </li>
+
+                <li class="item">
+                    <div class="item_name">STARBUCKS REWORD</div>
+                    <div class="item_contents">
+                        
+                    </div>
+                </li>
+
+                <li class="item">
+                    <div class="item_name">CORPORATE SALES</div>
+                    <div class="item_contents">
+                        
+                    </div>
+                </li>
+
+                <li class="item">
+                    <div class="item_name">WHAT'S NEW</div>
+                    <div class="item_contents">
+                        
+                    </div>
+                </li>
+
+            </ul>
+
+        </div>
+        
+        <div class="badges">
+
+            <div class="badge">
+                <img src="../Starbucks/images/badge2.jpg" alt="">
+            </div>
+
+            <div class="badge">
+                <img src="../Starbucks/images/badge1.jpg" alt="">
+            </div>  
+            
+            <div class="badge">
+                <img src="../Starbucks/images/badge3.jpg" alt="">
+            </div>
+
+        </div>
+           
+    </div>
+
+    <!-- BODY -->
+    <div id="body_layout">
+
+        <div class="banner">
+            <div class="inner">
+                <div class="title">
+                    <img src="../Starbucks/images/25th_top_slogan.png" alt="">
+                    <a href="" class="btn">자세히 보기</a>
+                </div>
+                <img src="../Starbucks/images/25th_top_drink1.png" alt="">
+                <img src="../Starbucks/images/25th_top_drink2.png" alt="">
+                <img src="../Starbucks/images/25th_top_drink3.png" alt="">
+                <img src="../Starbucks/images/25th_top_drink4.png" alt="">
+            </div>
+
+        </div>
+
+        <!-- <div class="line_notice">
+            <div class="line_notice_left">
+                <div class="line_notice_bars">
+                    <div class="line_notice_bar">
+                        <span class="notice_index">공지사항</span>
+                        <a href="">안녕하세요</a>
+                    </div>
+                </div>               
+            </div>
+            <div class="line_notice_right">
+                <div class="line_notice_bar"></div>
+            </div>
+        </div> -->
+
+        <!-- NOTICE -->
+        <div class="notice">
+
+            <div class="bg_left"></div>
+
+            <div class="bg_right"></div>
+
+            <div class="inner">
+                <!-- inner_left -->
+                <div class="inner_left">
+                    <span class="tit">공지사항</span>
+
+                    <div class="notice_line">
+                        <div class="swiper-wrapper">
+                            <!-- slides -->
+                            <div class="swiper-slide">일부 품목 가격 조정 안내</div>
+                            <div class="swiper-slide">’리저널 컬렉션’ 경기 머그와 텀블러, 엽서북 출시 연기 및 판매일 안내</div>
+                            <div class="swiper-slide">시스템 개선 및 서비스 점검 안내</div>
+                            <div class="swiper-slide">스타벅스 카드 이용약관 일부 정정 안내</div>                        
+                        </div>
+
+                    </div>
+
+                    <span class="material-symbols-outlined">
+                    add_circle
+                    </span>
+                </div>
+                
+                <!-- inner_right -->
+                <div class="inner_right">
+                    <span class="tit">스타벅스 프로모션</span>
+                    <div class="toggle-promotion_open">
+                        <span class="material-symbols-outlined">
+                        expand_circle_down
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="promotion">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="../Starbucks/images/promotion_slide1.jpg" alt="">
+                        <a href="" class="btn">자세히보기</a>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../Starbucks/images/promotion_slide2.jpg" alt="">
+                        <a href="" class="btn">자세히보기</a>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../Starbucks/images/promotion_slide3.jpg" alt="">
+                        <a href="" class="btn">자세히보기</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- FOOT -->
+    <div id="foot_layout"></div>
+
+ </body>
+ </html>
+ 
